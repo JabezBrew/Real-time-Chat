@@ -1,0 +1,53 @@
+type: edu
+files:
+  - name: resources/application.properties
+    visible: true
+    learner_created: false
+  - name: src/chat/Main.java
+    visible: true
+    learner_created: false
+  - name: build.gradle
+    visible: true
+    learner_created: false
+  - name: test/ChatTests.java
+    visible: false
+    learner_created: false
+  - name: src/chat/controller/WebSocketEventListener.java
+    visible: true
+    learner_created: true
+  - name: resources/static/styles.css
+    visible: true
+    learner_created: true
+  - name: src/chat/model/MessageStore.java
+    visible: true
+    learner_created: true
+  - name: src/chat/controller/MessageController.java
+    visible: true
+    learner_created: true
+  - name: resources/static/index.js
+    visible: true
+    learner_created: true
+  - name: src/chat/config/WebSocketConfig.java
+    visible: true
+    learner_created: true
+  - name: resources/static/index.html
+    visible: true
+    learner_created: true
+  - name: src/chat/model/UserStore.java
+    visible: true
+    learner_created: true
+  - name: src/chat/controller/ChatController.java
+    visible: true
+    learner_created: true
+  - name: src/chat/model/MessageType.java
+    visible: true
+    learner_created: true
+  - name: src/chat/model/ChatMessage.java
+    visible: true
+    learner_created: true
+feedback_link: https://hyperskill.org/learn/step/24565#comment
+status: Failed
+feedback:
+  message: Execution failed
+  time: "Mon, 23 Oct 2023 13:13:44 UTC"
+record: -1

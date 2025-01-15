@@ -1,0 +1,26 @@
+type: edu
+files:
+  - name: resources/application.properties
+    visible: true
+    learner_created: false
+  - name: src/chat/Main.java
+    visible: true
+    learner_created: false
+  - name: test/ChatTests.java
+    visible: false
+    learner_created: false
+  - name: build.gradle
+    visible: true
+    learner_created: false
+  - name: resources/static/index.html
+    visible: true
+    learner_created: true
+  - name: resources/static/styles.css
+    visible: true
+    learner_created: true
+feedback_link: https://hyperskill.org/learn/step/24558#comment
+status: Solved
+feedback:
+  message: Congratulations!
+  time: "Mon, 02 Oct 2023 11:48:48 UTC"
+record: 1

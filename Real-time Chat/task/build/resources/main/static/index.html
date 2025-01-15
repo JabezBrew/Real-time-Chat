@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Chat</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <div id="chat-ui" class="hidden">
+            <div id="flex-container">
+                <div id="users-messages-container">
+                    <div id="users">
+                        <button id="public-chat-btn">Public Chat</button>
+                    </div>
+                    <div id="messages">
+                        <div id="chat-with"></div>
+                    </div>
+                </div>
+                <form id="input-container">
+                    <input type="text" id="input-msg" placeholder="Type something" autofocus>
+                    <input type="submit" value="Submit" id="send-msg-btn">
+                </form>
+            </div>
+
+        </div>
+
+        <form id="user-login">
+            <input type="text" id="input-username" placeholder="Enter username..." autofocus>
+            <input type="submit" value="Send" id="send-username-btn">
+        </form>
+
+
+
+
+
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/sockjs-client/1.5.0/sockjs.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/stomp.js/2.3.3/stomp.min.js"></script>
+        <script src="index.js"></script>
+    </body>
+</html>

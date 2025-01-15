@@ -1,0 +1,41 @@
+type: edu
+files:
+  - name: resources/application.properties
+    visible: true
+    learner_created: false
+  - name: src/chat/Main.java
+    visible: true
+    learner_created: false
+  - name: build.gradle
+    visible: true
+    learner_created: false
+  - name: test/ChatTests.java
+    visible: false
+    learner_created: false
+  - name: resources/static/styles.css
+    visible: true
+    learner_created: true
+  - name: resources/static/index.html
+    visible: true
+    learner_created: true
+  - name: resources/static/index.js
+    visible: true
+    learner_created: true
+  - name: src/chat/config/WebSocketConfig.java
+    visible: true
+    learner_created: true
+  - name: src/chat/model/ChatMessage.java
+    visible: true
+    learner_created: true
+  - name: src/chat/model/MessageType.java
+    visible: true
+    learner_created: true
+  - name: src/chat/controller/ChatController.java
+    visible: true
+    learner_created: true
+feedback_link: https://hyperskill.org/learn/step/24560#comment
+status: Solved
+feedback:
+  message: Congratulations!
+  time: "Tue, 03 Oct 2023 08:26:51 UTC"
+record: 3
